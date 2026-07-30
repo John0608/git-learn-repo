@@ -113,7 +113,7 @@ git config --global user.email
     ```
 
 - ### 마지막 커밋에 파일 추가하기
-    > [!WARNING]
+    > [!CAUTION]  
     > 이미 push한 커밋을 amend하면 커밋 ID가 바뀌어요!
     > 혼자 쓰는 브랜치가 아니라면 amend 대신 새 커밋을 만드는 편이 안전해요!
     ```bash
