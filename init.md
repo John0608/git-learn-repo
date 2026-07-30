@@ -6,29 +6,28 @@
 > Git은 커밋을 만들 때 작성자의 이름과 이메일을 기록합니다.
 > 처음 Git을 사용한다면 이름과 이메일을 먼저 설정합니다.
 
-### 1. 사용자 정보 설정하기
+- ### 사용자 정보 설정하기
 
-```bash
-# 이름을 전역으로 설정하기
-git config --global user.name "이름"
+    ```bash
+    # 이름을 전역으로 설정하기
+    git config --global user.name "이름"
 
-# 이메일을 전역으로 설정하기
-git config --global user.email "이메일"
-```
+    # 이메일을 전역으로 설정하기
+    git config --global user.email "이메일"
+    ```
 
-### 2. 설정 확인하기
+- ### 설정 확인하기
 
-```bash
-# 이름 전역 설정 확인하기
-git config --global user.name
+    ```bash
+    # 이름 전역 설정 확인하기
+    git config --global user.name
 
-# 이메일 전역 설정 확인하기
-git config --global user.email
-```
+    # 이메일 전역 설정 확인하기
+    git config --global user.email
+    ```
 
 - ### 저장소별 사용자 정보 설정하기
 
-    > [!TIP]
     > 회사 저장소처럼 현재 프로젝트에서만 다른 이름이나 이메일을 사용하려면 `--global` 없이 설정합니다.
 
     ```bash
