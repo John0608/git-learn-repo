@@ -103,8 +103,9 @@ git config --global user.email
 
 ## 4. 마지막 커밋 수정하기
 
-> [!INFO]
-> `git commit --amend`는 가장 최근 커밋을 수정하는 명령어입니다.
+> [!CAUTION]  
+> 이미 push한 커밋을 amend(수정)하면 커밋 ID가 바뀌어요!
+> 혼자 쓰는 브랜치가 아니라면 amend 대신 새 커밋을 만드는 편이 안전해요!
 
 - ### 커밋 메세지 수정하기
 
@@ -113,9 +114,6 @@ git config --global user.email
     ```
 
 - ### 마지막 커밋에 파일 추가하기
-    > [!CAUTION]  
-    > 이미 push한 커밋을 amend하면 커밋 ID가 바뀌어요!
-    > 혼자 쓰는 브랜치가 아니라면 amend 대신 새 커밋을 만드는 편이 안전해요!
     ```bash
     git add <빠뜨린-파일>
     git commit --amend --no-edit
